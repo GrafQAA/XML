@@ -1,1 +1,28 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<req>
+	<bug_id>1</bug_id>
+	<title>что?где?когда?
+				Кнопка "Оформить заказ" не реагирует на клик</title>
+	<severity>критичность- 
+				Blocker</severity>
+	<priority>приоритет-
+				ASAP-as fast as possible-как можно быстрее</priority>
+	<environment>окружение-
+				Windows 10 Pro v:20H2. 
+				Google Chrome V: 97.0.4692.71 (Official build), (64 bit)</environment>
+	<precondition>предворительное условие 
+				1) Открыть сайт https://... 
+				2) Открыть каталог</precondition>
+	<str>Steps to reproduce-шаги воспроизведения
+				1. Добавить товар в корзину.
+				2. Зайти в корзину.
+				3. Нажать на кнопку "Оформить заказ"
+				4. Нажать на кнопку "Оформить заказ"</str>
+	<ar>actual result-фактический результат-
+				Кнопка "Оформить заказ" не реагирует на клик</ar>
+	<er>expected result-ожидаемый результат-
+				Пользователь перенаправляется на страницу оплаты</er>
+	<attachments>Вложения результатов аспектов-
+				Video link</attachments>
+</req>
+	
